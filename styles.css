@@ -22,12 +22,14 @@ body {
 }
 
 body::before {
-    content: url('./assets/images/background-pattern-desktop.svg');
+    content : "";
+    height: 40vh;
     position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
+    background-image: url('./assets/images/background-pattern-desktop.svg');
+    background-size: cover;
     width: 100vw;
+    top: 0;
+    z-index: -1;
     margin: 0;
     padding: 0;
 }
